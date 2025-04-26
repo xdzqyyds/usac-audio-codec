@@ -1,8 +1,9 @@
-```markdown
+
 # Client-Server 项目说明
 
 ## 📁 项目结构
 
+```
 Client-Server
 ├─ Client
 │  ├─ Client
@@ -26,10 +27,10 @@ Client-Server
 └─ Server
    ├─ Server
    └─ Server.sln
-
+```
 ## 📈 流程结构
 
-![流程图](client-server.png)
+![流程图](https://raw.githubusercontent.com/xdzqyyds/draw.io/main/client-server.svg)
 
 ## 🚀 使用方法
 
@@ -68,4 +69,4 @@ Client-Server
 
 - `libusac` 目录包含了基于 USAC（统一音频编解码）标准的音频处理库。
 - `release` 目录下包含打包好的可执行文件，便于直接测试运行。
-```
+
