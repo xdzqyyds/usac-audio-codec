@@ -70,3 +70,8 @@ Client-Server
 - `libusac` 目录包含了基于 USAC（统一音频编解码）标准的音频处理库。
 - `release` 目录下包含打包好的可执行文件，便于直接测试运行。
 
+## ▶️ 效果演示
+
+https://github.com/user-attachments/assets/173c1fc2-cd74-4269-9a4d-d7b8b49a5f94
+
+
