@@ -45,8 +45,8 @@ Client-Server
    - `libxaacenc.dll`
    
    复制到生成的可执行文件目录，例如：
-   - `Client/Debug/` 或 `Client/Release/`
-   - `Server/Debug/` 或 `Server/Release/`
+   - `Client/x64/Debug/` 或 `Client/x64/Release/`
+   - `Server/x64/Debug/` 或 `Server/x64/Release/`
 
 3. 编译并运行 `Client` 和 `Server` 项目，即可进行通信测试。
 
