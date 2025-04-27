@@ -1,2 +1,6 @@
-**/.vs/        #忽略.vs文件夹
-**/x64/        #忽略x64文件夹
+Client/.vs/
+Client/Client/x64/
+Client/x64/
+Server/.vs/
+Server/Server/x64/
+Server/x64/
