@@ -4,3 +4,5 @@ Client/x64/
 Server/.vs/
 Server/Server/x64/
 Server/x64/
+Release/encoded.mp4
+Release/decoded_output.wav

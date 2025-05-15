@@ -2,6 +2,7 @@
 #include <QDebug>
 #include <cstring>
 #include <libxaacd_export.h>
+#include <libsuperframe_export.h>
 #include "audio_player.h"
 #include <QElapsedTimer>
 #include <QCoreApplication>

@@ -3,7 +3,7 @@
 #include <QWidget>
 #include <QMessageBox>
 #include <QThread>
-#include <libxaace_export.h>
+#include <libxaacempeg_export.h>
 #include "audio_capture.h"
 #include "AudioEncoderWorker.h"
 

@@ -5,6 +5,7 @@
 #include <QByteArray>
 #include <QDataStream>
 #include <libxaacd_export.h>
+#include <libsuperframe_export.h>
 #include <QThread>
 #include <QMutex>
 #include "audio_player.h"
@@ -46,8 +47,6 @@ private:
     QTcpSocket* decoderSocket;
     QString serverAddress = "127.0.0.1";
     quint16 serverPort = 12345;
-
-
 
 
     void handleReceivedData(const QByteArray& data);

@@ -70,17 +70,22 @@
     </ClCompile>
     <Link>
       <AdditionalLibraryDirectories>..\..\libusac\lib;%(AdditionalLibraryDirectories)</AdditionalLibraryDirectories>
-      <AdditionalDependencies>libxaacenc.lib;libxaacdec.lib;%(AdditionalDependencies)</AdditionalDependencies>
+      <AdditionalDependencies>usacEnc.lib;dll_superframe.lib;libxaacdec.lib;%(AdditionalDependencies)</AdditionalDependencies>
+      <StackReserveSize>8388608</StackReserveSize>
+      <StackCommitSize>2097152</StackCommitSize>
     </Link>
   </ItemDefinitionGroup>
   <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Release|x64'">
     <ClCompile>
       <AdditionalIncludeDirectories>..\..\libusac\include;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
       <PreprocessorDefinitions>_CRT_SECURE_NO_WARNINGS;%(PreprocessorDefinitions)</PreprocessorDefinitions>
+      <RuntimeLibrary>MultiThreadedDebugDLL</RuntimeLibrary>
     </ClCompile>
     <Link>
       <AdditionalLibraryDirectories>..\..\libusac\lib;%(AdditionalLibraryDirectories)</AdditionalLibraryDirectories>
-      <AdditionalDependencies>libxaacenc.lib;libxaacdec.lib;%(AdditionalDependencies)</AdditionalDependencies>
+      <AdditionalDependencies>usacEnc.lib;dll_superframe.lib;libxaacdec.lib;%(AdditionalDependencies)</AdditionalDependencies>
+      <StackReserveSize>8388608</StackReserveSize>
+      <StackCommitSize>2097152</StackCommitSize>
     </Link>
   </ItemDefinitionGroup>
   <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)' == 'Debug|x64'" Label="Configuration">

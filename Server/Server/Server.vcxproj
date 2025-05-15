@@ -71,7 +71,7 @@
     </ClCompile>
     <Link>
       <AdditionalLibraryDirectories>..\..\libusac\lib;%(AdditionalLibraryDirectories)</AdditionalLibraryDirectories>
-      <AdditionalDependencies>libxaacenc.lib;libxaacdec.lib;%(AdditionalDependencies)</AdditionalDependencies>
+      <AdditionalDependencies>libxaacdec.lib;dll_superframe.lib;%(AdditionalDependencies)</AdditionalDependencies>
     </Link>
   </ItemDefinitionGroup>
   <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Release|x64'">
@@ -82,7 +82,7 @@
     </ClCompile>
     <Link>
       <AdditionalLibraryDirectories>..\..\libusac\lib;%(AdditionalLibraryDirectories)</AdditionalLibraryDirectories>
-      <AdditionalDependencies>libxaacenc.lib;libxaacdec.lib;%(AdditionalDependencies)</AdditionalDependencies>
+      <AdditionalDependencies>libxaacdec.lib;dll_superframe.lib;%(AdditionalDependencies)</AdditionalDependencies>
     </Link>
   </ItemDefinitionGroup>
   <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)' == 'Debug|x64'" Label="Configuration">
