@@ -35,10 +35,10 @@
 
 ## 🚀 使用方法
 
-- 自行调整码率`Bitrate`和采样率`SampleRate`
-- 位深度`PCM Bit Width`目前只支持`16`位
-- 自行调整立体声开关`stereo`
-- `SBR`与`MPS`根据上述配置自动开启，无需选择
+- 自行调整码率 `Bitrate` 和采样率 `SampleRate`
+- 位深度 `PCM Bit Width` 目前只支持 `16` 位
+- 自行调整立体声开关 `stereo`
+- `SBR` 与 `MPS` 根据上述配置自动开启，无需选择
 
 ## ⚡ 编译说明
 
